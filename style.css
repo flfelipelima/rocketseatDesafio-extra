@@ -51,10 +51,11 @@ body {
 footer ul {
   display: flex;
   flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
   gap: 20px;
   list-style: none;
   color: #3f3d56;
-  justify-content: center;
   font-family: "Open Sans";
   font-size: 15px;
   font-style: normal;
@@ -80,3 +81,5 @@ footer a:hover {
   bottom: 0;
   width: inherit;
 }
+
+
