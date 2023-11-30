@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+}
+
+.conteudo {
+  text-align: center;
+  width: auto 540px;
+  margin-top: 100px;
+}
+
+.conteudo p {
+  width: 600px;
+  margin: auto;
+}
+
+.conteudo h1 {
+  color: #3f3d56;
+  font-family: Dosis;
+  font-size: 32px;
+}
+
+.conteudo h1 strong {
+  color: #ee24ff;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+}
+
+.conteudo h1 {
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+}
+
+.conteudo p {
+  font-family: "Open Sans", sans-serif;
+  color: #828282;
+  font-weight: 400;
+}
+
+.conteudo p strong {
+  color: #3f3d56;
+  font-weight: 700;
+}
+
+#line {
+  border: 1px #eceff2 solid;
+  width: 390px;
+  align-content: center;
+  margin: auto;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
+  color: #3f3d56;
+  justify-content: center;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+footer a {
+  text-decoration: none;
+  color: #3f3d56;
+  font-size: 15px;
+}
+
+footer a:hover {
+  color: #ee24ff;
+}
+
+.wave {
+  width: 100%;
+}
+
+.wave img {
+  position: fixed;
+  bottom: 0;
+  width: inherit;
+}
